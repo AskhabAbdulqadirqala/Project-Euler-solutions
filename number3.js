@@ -1,5 +1,5 @@
 var delitel = function () {
-    var sim, x=600851475143, max=0, prostota=true;
+    var x=600851475143, max=0, prostota=true;
     for_1: for (var i = 2; i <= Math.trunc(x/2); i=i+1) {
 
         if (x%i===0) {
