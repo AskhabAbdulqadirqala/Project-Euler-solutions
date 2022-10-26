@@ -9,10 +9,10 @@ var delitel = function () {
                 if (i%j===0 && i!==j) {
                     prostota=false;
                     continue for_1;
-                } else {prostota=true;}
+                } else prostota=true;
             }
-        if (prostota===true){max=i;}
+        if (prostota===true) max=i;
         }
-        }
+    }
     return max;
  };
